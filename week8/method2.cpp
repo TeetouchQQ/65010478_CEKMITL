@@ -10,7 +10,6 @@ int main()
    if ((fptr = fopen("a.txt","r")) == NULL){
        printf("Error! opening file");
 
-       // Program exits if the file pointer returns NULL.
        exit(1);
    }
 
